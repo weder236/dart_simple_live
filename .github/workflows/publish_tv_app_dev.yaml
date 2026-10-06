@@ -14,7 +14,7 @@ jobs:
             #签出代码
             - uses: actions/checkout@v4
               with:
-                  ref: weder236
+                  ref: master
                   submodules: true
                   fetch-depth: 0
 
